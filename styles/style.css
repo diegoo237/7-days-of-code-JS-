@@ -11,19 +11,19 @@ body {
   color: #ffffff;
 }
 main {
+  height: 100rem;
   background-color: #17162e;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6rem;
+  gap: 3rem;
 }
 .search {
   margin-top: 4rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 5rem;
 }
 .titulo {
   font-size: 3.6rem;
@@ -59,35 +59,63 @@ main {
   border: none;
 }
 .movie {
-  max-width: 122.4rem;
+  max-width: 110.4rem;
   background-color: #1d1c3b;
   padding: 2.4rem;
   display: flex;
   align-items: center;
-  gap: 7rem;
+  gap: 25%;
   border-radius: 8px;
   box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.425);
 }
-.name {
+.container {
   font-size: 1.8rem;
+  display: grid;
+  gap: 2rem;
 }
 .imagem {
   border-radius: 50%;
-  height: 15.3rem;
+  height: 11rem;
   width: auto;
   box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.308);
 }
 .rate {
-  margin-top: 1rem;
   display: flex;
-  gap: 2.4rem;
+  gap: 3rem;
   height: 1.9rem;
+  align-items: center;
 }
 .text-description {
   font-size: 1.8rem;
   color: #acacac;
 }
 .icon {
-  height: 1.823rem;
-  width: 2.09rem;
+  height: 1.9rem;
+  cursor: pointer;
+}
+.icon-star:hover,
+.icon-star-collor {
+  fill: yellow;
+}
+.icon-heart:hover,
+.icon-heart-collor {
+  fill: red;
+}
+.filme-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+.fav,
+.star {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.movie button {
+  background-color: none;
+}
+.hiden {
+  display: none;
 }
