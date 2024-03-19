@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: "Kumbh Sans", sans-serif;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+main {
+  background-color: #17162e;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6rem;
+}
+.search {
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.titulo {
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+.text-area {
+  width: 63.4rem;
+  height: 7.4rem;
+  background-color: #454558;
+  color: #8a8a8a;
+  resize: none;
+  border: solid 1px black;
+  border-radius: 8px;
+  justify-content: center;
+  line-height: 7.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.check input[type="checkbox"] {
+  width: 1.6rem;
+  height: 1.6rem;
+  border: none;
+  background-color: #706ea8;
+  cursor: pointer;
+}
+
+.check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.8rem;
+  border: none;
+}
+.movie {
+  max-width: 122.4rem;
+  background-color: #1d1c3b;
+  padding: 2.4rem;
+  display: flex;
+  align-items: center;
+  gap: 7rem;
+  border-radius: 8px;
+  box-shadow: 1px 1px 16px rgba(0, 0, 0, 0.425);
+}
+.name {
+  font-size: 1.8rem;
+}
+.imagem {
+  border-radius: 50%;
+  height: 15.3rem;
+  width: auto;
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.308);
+}
+.rate {
+  margin-top: 1rem;
+  display: flex;
+  gap: 2.4rem;
+  height: 1.9rem;
+}
+.text-description {
+  font-size: 1.8rem;
+  color: #acacac;
+}
+.icon {
+  height: 1.823rem;
+  width: 2.09rem;
+}
